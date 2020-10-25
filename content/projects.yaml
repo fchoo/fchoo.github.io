@@ -10,7 +10,7 @@
     - Jira
     - Jenkins
     - GitLab
-  # icon:
+  icon: website
   # image:
 
 - name: Fusion AnalyticS for public Transport Emergency Response (FASTER)
@@ -23,5 +23,5 @@
     - Hive
     - HBase
     - C#
-  # icon:
+  icon: website
   # image:
