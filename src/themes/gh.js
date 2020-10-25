@@ -4,12 +4,17 @@ module.exports = {
   'lead': '#2781ed',
   'lead-text': '#ffffff',
   'line': '#ced9e3',
-  'skill-1': '#b07219', // Java
-  'skill-2': '#f1e05a', // Javascript
-  'skill-3': '#e34c26', // HTML
-  'skill-4': '#0366d6', // TSQL
-  'skill-5': '#178600', // C#
-  'skill-6': '#3572A5', // Python
+  'skill-1': '#b07219', //Java
+  'skill-2': '#e69f56', //Groovy
+  'skill-3': '#DC322F', //Scala
+  'skill-4': '#3572A5', //Python
+  'skill-5': '#178600', //C#
+  'skill-6': '#dad8d8', //TSQL
+  'skill-7': '#89e051', //Bash/ Shell
+  'skill-8': '#012456', //CMD/ Powershell
+  'skill-9': '#e34c26', //HTML
+  'skill-10': '#f1e05a', //JavaScript
+  'skill-11': '#c6538c', //CSS
 };
 
 // Github Language Colors

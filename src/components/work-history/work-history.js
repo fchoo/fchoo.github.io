@@ -5,11 +5,12 @@ import "./work-history.css"
 const WorkHistory = ({ history }) => {
   return (
     <>
-      <h5 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3 text-center">
+      {/* <h5 className="font-header font-semibold text-front text-sm uppercase mt-12 mb-3 text-center"> */}
+      <h5 className="font-header font-semibold text-front text-sm uppercase mb-3">
         Work history
       </h5>
-      <div className="history flex flex-col relative pt-6 pb-6">
-        {history.map(({ company, period, position, url }, i) => (
+      <div className="history flex flex-col relative pt-1 pb-1">
+        {history.map(({ company, period, position, url, description }, i) => (
           <div
             className="history-entry relative w-1/2 py-4"
             key={`${company}_${i}`}
@@ -25,22 +26,25 @@ const WorkHistory = ({ history }) => {
                   rel="noopener noreferrer"
                   className="hover:opacity-75 transition-opacity duration-150"
                 >
-                  {company}
+                  {position}
                 </a>
               </h4>
             ) : (
-              <h4 className="subpixel-antialiased">{company}</h4>
+              <h4 className="subpixel-antialiased font-bold">{position}</h4>
             )}
-
-            {position && (
-              <h5 className="text-sm font-normal mb-1">{position}</h5>
+            {company && (
+              <h5 className="text-sm font-normal">{company}</h5>
             )}
             {period && (
               <span className="text-sm font-medium opacity-50">{period}</span>
             )}
+            {description && (
+              <h5 className="text-sm font-normal" dangerouslySetInnerHTML={{ __html: description }}></h5>
+            )}
           </div>
         ))}
       </div>
+      <div className="pb-6" />
     </>
   )
 }

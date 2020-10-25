@@ -6,6 +6,7 @@ export const WorkHistoryType = {
   period: string,
   position: string,
   url: string,
+  description: string
 }
 
 export const query = graphql`
@@ -14,5 +15,6 @@ export const query = graphql`
     period
     position
     url
+    description
   }
 `

@@ -1,5 +1,5 @@
 import React from "react"
-import { FaEnvelope } from "react-icons/fa"
+// import { FaEnvelope } from "react-icons/fa"
 import { ProfileType } from "../../types"
 
 const Footer = ({ name }) => (
@@ -10,6 +10,8 @@ const Footer = ({ name }) => (
           &copy; {new Date().getFullYear()} {name}.
         </b>{" "}
         All rights reserved.
+        <br/>
+        <a href="https://weeby.studio/intro">Intro Theme</a> by <a href="https://weeby.studio">WeeblyStudio</a>
       </a>
       {/* <a
         className="flex w-14 h-14 font-header font-semibold px-2 bg-lead rounded-full text-lead-text justify-center items-center leading-tight lg:w-auto lg:h-auto lg:px-6 lg:py-2 lg:rounded-lg lg:self-start hover:opacity-75 transition-opacity duration-150"

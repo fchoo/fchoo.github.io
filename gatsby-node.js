@@ -37,6 +37,7 @@ exports.sourceNodes = ({ actions }) => {
       period: String
       position: String
       url: String
+      description: String
     }
   `)
 }

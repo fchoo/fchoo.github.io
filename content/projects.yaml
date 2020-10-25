@@ -1,21 +1,20 @@
 - name: Rail Enterprise Asset Management System (REAMS)
   url: https://www.lta.gov.sg/content/ltagov/en/newsroom/2018/8/2/harnessing-technology-to-deliver-better-rail-reliability-for-commuters.html
-  description: Supported the solution architects on integration of analytics, webapp and Business Intelligence tools. Drove adoption of DevOps tools and delivered CI/CD pipelines with Jira, Jenkins and GitLab.
+  description: Provided technical directions for integration of Data Engineering, Data Analytics, Web Applications and Business Intelligence tools. Drove adoption of DevOps tools and modernised CI/CD pipelines.
   status: In Progress
   tags:
     - Bash
     - Groovy
     - Python
-    - React
     - Qlik Sense
     - Jira
     - Jenkins
     - GitLab
-  icon: website
-  image: images/REAMS2.jpg
+  # icon:
+  # image:
 
 - name: Fusion AnalyticS for public Transport Emergency Response (FASTER)
-  url: 
+  url: https://www.lta.gov.sg/content/ltagov/en/newsroom/2014/6/2/lta-smrt-starhub-and-ibm-collaborate-to-improve-transport-with-data-for-singapore-commuters.html
   description: Created backend pipelines and applications in Hadoop, Java, Spark, Scala, NoSQL DB to harness real-time data to drive better operational insights in rail monitoring and incident management.
   status: Commissioned
   tags:
@@ -24,5 +23,5 @@
     - Hive
     - HBase
     - C#
-  icon: 
-  image: 
+  # icon:
+  # image:

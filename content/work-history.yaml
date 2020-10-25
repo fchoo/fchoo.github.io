@@ -1,11 +1,20 @@
 - company: ST Engineering Electronics Ltd.
   position: Assistant Principal Engineer
   period: Jul 2019 – Present
+  description: |
+    • Modernised CI/CD solution within 6 months for a long-running project. Through driving adoption of agile development and operational best practices, I led multiple cross-functional teams to collaborate and deliver business requirements.
+    <br />• Assisted in software architecture design and established technical direction for multiple refactoring initiatives to reduce technical debts and improve product performance and usability.
 
 - company: ST Engineering Electronics Ltd.
   position: Senior Software Engineer
-  period: Sep 2017 – Jul 2019 . 1 yr 11 mos
+  period: Sep 2017 – Jul 2019 • 1 yr 11 mos
+  description: |
+    • Coordinated with matrix teams to design a comprehensive large-scale system monitoring solution. By sharpening techniques to visualize complex, real-time data in simple yet effective manner, I built reports that were well accepted by different stakeholders and were integrated into their business operations.
+    <br />• Created high-fidelity prototypes to drive the conceptualisation of a new product. With modernised UI and innovative features, I conducted successful demonstrations to Ministers and Delegates in an international transport exhibition (SITCE).
 
 - company: ST Engineering Electronics Ltd.
   position: Software Engineer
-  period: Sep 2016 – Sep 2017 . 1 yr 1 mo
+  period: Sep 2016 – Sep 2017 • 1 yr 1 mo
+  description: |
+    • Explored SOA architecture and built a scalable ESB to mediate multiple data feeds from existing systems for a new real-time public transportation monitoring platform.
+    <br />• Taught myself IBM WebSphere tools in 3 months to develop reliable and fault-tolerant ETL pipelines to handle both batch and stream processing.

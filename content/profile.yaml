@@ -2,34 +2,31 @@
   initials: FL
   name: Choo Foo Lai
   email: choofoolai@gmail.com
-  profession: Web Developer
+  profession: Developer
   image: images/profile.png
   location: Singapore
   relocation: false
   company: ST Engineering Electronics Ltd.
-  for_hire: false
+  for_hire: true
   focus: Learning Gatsby
   focus_url: https://gatsbyjs.org
   about: |
-    Foo Lai wears many hats: software developer, designer, and fitness enthusiast. Working with enterprise clients such as Land Transport Authority (LTA) and Siemens, he has contributed to large scale projects from inception to completion. Along the way, he collected a few valued hats such as front-end/back-end web development, database/server architect and administration, requirements gathering and prototyping, and DevOps automation. He looks forward to trying on new hats.
+    My experience spans DevOps automation, front-end/back-end web development, solution architect, requirements gathering and prototyping. I am excited to build more user friendly solutions and learn new things while solving technical challenges. Having worked with enterprise clients and partners, such as Land Transport Authority (LTA), Siemens, and IBM, I look forward to enabling new revenue streams and, most importantly, bringing large scale projects to fruition.
   skills:
     - Java
-    - JavaScript
-    - HTML / CSS
-    - TSQL
-    - C#
+    - Groovy
+    - Scala
     - Python
+    - C#
+    - TSQL
+    - Bash/ Shell
+    - CMD/ Powershell
+    - HTML
+    - JavaScript
+    - CSS
   tools:
+    - Apache Hadoop
     - Jenkins
-    - Spark
-    - Gatsby
-    - React
-    - Hive
-    - HBase
-    - GitHub / GitLab
-    - Atlassian / Jira
-  budget:
-    currency: $
-    min: 5
-    max: 30
-    default: 10
+    - IBM WebSphere
+    - Git
+    - Red Hat OpenShift
