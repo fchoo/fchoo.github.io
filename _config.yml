@@ -1,0 +1,119 @@
+# Site
+repository: fchoo/fchoo.github.io
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Choo Foo Lai
+title: Engineering Manager
+email: choofoolai@gmail.com
+# website: https://fchoo.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username: fchoo
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: foolaichoo
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+gtag: "G-S5CE8H6JGS"
+# google_analytics: "G-S5CE8H6JGS"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name is Foo Lai and I am an Engineering Manager with over 4 years of project management experience. I am currently working for ST Engineering as Deputy District Manager, Kaohsiung.
+  
+  I enjoy working with cross-functional teams across both business and software development functions and refining architectural vision and technical strategy. My strengths lie in communicating and breaking down engineering concepts to a non-technical audience and coordinating interfaces across multiple engineering systems. I have worked with a range of different languages and frameworks and I am always looking for opportunities to learn something new. The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>C#</mark>, <mark>SQL/NoSQL</mark> and <mark>DevOps tools</mark>.
+
+content:
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Deputy District Manager, Kaohsiung
+        sub_title: ST Engineering (Taiwan)
+        caption: Dec 2021 - Present
+        description: |
+            - Manages the overall schedule and budget to ensure timely delivery of the Kaohsiung Rapid Transit Red Line Gangshan Luzhu Extension Line E&M project.
+            - Coordinates the system integration across key E&M systems including Rolling Stock, Signalling, Power Supply, Communication, SCADA, AFC and PSD.
+            - Manages an offshore system engineering team to achieve quality deliverables within project budget and constraints
+
+      - layout: left
+        border: weak
+        title: Assistant Principal Engineer
+        sub_title: ST Engineering Electronics Ltd.
+        caption: Jul 2019 - Nov 2021
+        description: |
+          - Streamlined a CI/CD solution within 6 months and led multiple cross-functional teams to adopt agile development and operational best practices.
+          - Assisted in software architecture design and established technical direction for multiple refactoring initiatives to reduce technical debts and improve product performance and usability.
+      
+      - layout: left
+        # border: weak
+        title: Senior Software Engineer
+        sub_title: ST Engineering Electronics Ltd.
+        caption: Sep 2016 - Jul 2019
+        description: |
+          - Coordinated with matrix teams to design a comprehensive large-scale system monitoring solution. Built BI reports with complex, real-time data that integrates successfully into different stakeholders’ business operations.
+          - Created high-fidelity prototypes to drive the conceptualisation of a new product and conducted successful demonstrations to Ministers and Delegates in an international transport exhibition.
+          - Developed reliable and fault-tolerant ETL pipelines to handle both batch and stream processing from multiple data feeds for a new real-time public transportation monitoring platform.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Columbia University
+        caption: 2015 - 2016
+        sub_title: M.S. in Management Science and Engineering
+        description: |
+          Developed the data imputation model that mined public and proprietary datasets for a dynamic risk assessment model, leading to a successful adoption by Standard & Poor's Global Market Intelligence in their solution to assess countries’ creditworthiness.
+      - layout: left
+        border: weak
+        title: Carnegie Mellon Unversity
+        caption: 2012 - 2015
+        sub_title: B.S. in Electrical and Computer Engineering
+        description: |
+          - GPA: 3.97 / 4.0
+          - Built a comprehensive API for access to a robotic window cleaner’s sensor and control systems and secured the best mechatronics design award.
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
