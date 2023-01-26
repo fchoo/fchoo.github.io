@@ -90,6 +90,13 @@ content:
     content:
       - layout: left
         border: weak
+        title: Project Management Institute
+        caption: Oct 2020 - Present
+        sub_title: Project Management Professional (PMP)
+        description: |
+          Planned and organised the overall schedule and budget to ensure timely delivery of the NTD$9.6bn Kaohsiung Rapid Transit Red Line Gangshan Luzhu Extension Line E&M project.
+      - layout: left
+        border: weak
         title: Columbia University
         caption: 2015 - 2016
         sub_title: M.S. in Management Science and Engineering
