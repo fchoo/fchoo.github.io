@@ -85,7 +85,7 @@ content:
           - Created high-fidelity prototypes to drive the conceptualisation of a new product and conducted successful demonstrations to Ministers and Delegates in an international transport exhibition.
           - Developed reliable and fault-tolerant ETL pipelines to handle both batch and stream processing from multiple data feeds for a new real-time public transportation monitoring platform.
 
-  - title: Education & Certification
+  - title: Education & Certifications
     layout: list
     content:
       - layout: left
@@ -116,7 +116,7 @@ footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: fchoo/modern-resume-theme
 
 sass:
   sass_dir: _sass
