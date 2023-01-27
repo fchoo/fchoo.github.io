@@ -50,7 +50,7 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Foo Lai and I am an Engineering Manager with over 4 years of project management experience. I am currently working for ST Engineering as Deputy District Manager, Kaohsiung.
   
-  I enjoy working with cross-functional teams across both business and software development functions and refining architectural vision and technical strategy. My strengths lie in communicating and breaking down engineering concepts to a non-technical audience and coordinating interfaces across multiple engineering systems. I have worked with a range of different languages and frameworks and I am always looking for opportunities to learn something new. The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>C#</mark>, <mark>SQL/NoSQL</mark> and <mark>DevOps tools</mark>.
+  I enjoy working with cross-functional teams across both business and software development functions and refining architectural vision and technical strategy. My strengths lie in communicating and breaking down engineering concepts to a non-technical audience and coordinating interfaces across multiple engineering systems. I have worked with a range of different languages and frameworks and I am always looking for opportunities to learn something new. The things that I currently have the most experience working with are: <mark>Java</mark>, <mark>C#</mark>, <mark>SQL/NoSQL</mark> and <mark>DevOps tools (Jenkins, Gitlab/SVN, Jira/Confluence, SonarQube.</mark>.
 
 content:
   - title: Experience
