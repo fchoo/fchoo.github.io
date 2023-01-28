@@ -57,7 +57,7 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
+        # border: weak
         title: Deputy District Manager, Kaohsiung
         sub_title: ST Engineering (Taiwan)
         caption: Dec 2021 - Present
@@ -68,7 +68,7 @@ content:
           - Lead an offshore system engineering team to architect and deliver large scale SCADA system for Kaohsiung Red Line Extension.
 
       - layout: left
-        border: weak
+        # border: weak
         title: Assistant Principal Engineer
         sub_title: ST Engineering Electronics Ltd.
         caption: Jul 2019 - Nov 2021
@@ -93,27 +93,36 @@ content:
     layout: list
     content:
       - layout: left
-        border: weak
+        # border: weak
         title: Project Management Institute
         caption: Oct 2020 - Present
         sub_title: Project Management Professional (PMP)
         description: |
           Planned and organised the overall schedule and budget to ensure timely delivery of the Kaohsiung Rapid Transit Red Line Gangshan Luzhu Extension Line E&M project worth NTD$9.6bn.
       - layout: left
-        border: weak
+        # border: weak
         title: Columbia University
         caption: 2015 - 2016
         sub_title: M.S. in Management Science and Engineering
         description: |
           Developed the data imputation model that mined public and proprietary datasets for a dynamic risk assessment model, leading to a successful adoption by Standard & Poor's Global Market Intelligence in their solution to assess countries’ creditworthiness.
       - layout: left
-        border: weak
+        # border: weak
         title: Carnegie Mellon Unversity
         caption: 2012 - 2015
         sub_title: B.S. in Electrical and Computer Engineering
         description: |
           - GPA: 3.97 / 4.0
           - Built a comprehensive API for access to a robotic window cleaner’s sensor and control systems and secured the best mechatronics design award.
+
+  - title: Skills
+    layout: text
+    content: |
+      - **Languages**: Fluent in Java, Groovy, Scala, Python, C#, TSQL, Bash/Shell, CMD/Powershell; Familiar with HTML, CSS, JavaScript.
+      - **Platforms/Tools**: Apache Hadoop, IBM WebSphere, Jenkins, GitLab/SVN, SonarQube, Jira/Confluence.
+      - **Databases**: Microsoft SQL Server, Hive, HBase, HDFS.
+      - **BI Tools**: QlikSense, Tableau.
+
 
 # Footer
 footer_show_references: false
